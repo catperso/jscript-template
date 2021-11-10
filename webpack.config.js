@@ -11,7 +11,9 @@ module.exports = {
   },
   devtool: 'eval-source-map',
   devServer: {
-    contentBase: './dist'
+    static: {
+      directory: path.join(__dirname, 'dist')
+    }
   },
   plugins: [
     new CleanWebpackPlugin(),
