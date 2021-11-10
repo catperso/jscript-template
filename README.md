@@ -21,9 +21,9 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Setup/Installation Requirements
 
-* _Run 'git clone git@github:catperso/{PROJECT GOES HERE}.git' to clone the project directory to your device._
+* _Run 'git clone git@github:catperso/{PROJECT GOES HERE}.git' from the terminal to clone the project directory to your device._
 * _Run 'npm install' and 'npm run build' from the terminal in the project directory._
-* _Run './dist/index.html' in your browser._
+* _Run 'npm run start' from the terminal to build the project and start a live server._
 * _Enjoy the lovely CSS._
 
 ## Known Bugs
