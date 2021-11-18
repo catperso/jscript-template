@@ -36,16 +36,11 @@ module.exports = {
         ]
       },
       {
-        test: /\.(gif|png|jpe?g)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'assets/img/'
-            }
-          }
-        ]
+        test: /\.(jpe?g|png|gif)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'assets/img/[hash][ext]'
+        }
       },
       {
         test:/\.html$/,
